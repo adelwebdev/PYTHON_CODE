@@ -145,18 +145,34 @@ print(raise_to_power(3, 5))
 #    for col in row:
 #        print(col)
 
-def translate (phrase):
-    translation = ""
-    for letter in phrase:
-        if letter in "AEIOUaeiou":
-            translation = translation + "g"
-        else:
-                translation = translation + letter
-                return translation
+# def translate (phrase):
+#     translation = ""
+#     for letter in phrase:
+#         if letter in "AEIOUaeiou":
+#             translation = translation + "g"
+#         else:
+#                 translation = translation + letter
+#                 return translation
+# print(translate(input("enter a phrase: ")))          
 
-print(translate(input("enter a phrase: ")))          
+# --------------------------------------TRY EXEPT ---------------------------------------------
+# try:
+#     value = 12/0
+#     number = int(input("inter a number: "))
+#     print(number)
 
-print("Comments are fun")
+# except ZeroDivisionError as err:
+#     print(err)  
+# except ValueError:
+#     print("invalid input")  
+
+
+
+
+
+
+
+
 
 
 
